@@ -24,5 +24,7 @@ function agregarAmigo(){
 function sortearAmigo(){
     let numeroAmigo = Math.floor(Math.random() * listaAmigos.length);
     console.log(numeroAmigo)
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = listaAmigos[numeroAmigo];
 }
 // mostrar el valor sorteado
