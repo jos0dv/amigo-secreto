@@ -48,4 +48,7 @@ El proyecto consta de tres archivos y una carpeta:
 
  ### Conclusión
 
- Pendiente de comentar en esta sección.
+El proyecto se concluyó con éxito y funciona.
+Me apoyé en los cursos de Lógica de Programación: explorar funciones y listas, el curso de Git y Github en la sección de gir Branch / Merge, también en la documentación de la MDN Web Docs y W3Schools, asi como algunos tutoriales en YouTube
+Para mi fue muy satisfactorio llegar al resultado entendiendo y aplicanndo la lógica de programación y buscando pistas pero principalmente poniendo a prueba mis habilidades
+
