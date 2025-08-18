@@ -13,13 +13,15 @@ function agregarAmigo(){
         alert('No puede haber un valor vacío')
     }
     // console.log(listaAmigos);
-    document.getElementById('amigo').innerText = '';
+    
     let mostrarAmigo = document.getElementById('listaAmigos');
     mostrarAmigo.innerHTML += `<li>${nuevoAmigo}</li>`;
 }
 
-// mostrar la lista de amigos en la parte de abajo del input
-
+// función limpíar el input
+function limpiarInput(){
+    document.getElementsByClassName('input-name').innerText = '';
+}
 
 // hacer un sorteo con los avlores agregados al arreglo
 function sortearAmigo(){
