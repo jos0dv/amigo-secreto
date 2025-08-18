@@ -9,20 +9,18 @@ function agregarAmigo(){
     // console.log(nuevoAmigo);
     if(nuevoAmigo != ''){
         listaAmigos.push(nuevoAmigo);
+        limpiarInput();
     } else {
         alert('No puede haber un valor vacío')
     }
     // console.log(listaAmigos);
-    
     let mostrarAmigo = document.getElementById('listaAmigos');
     mostrarAmigo.innerHTML += `<li>${nuevoAmigo}</li>`;
-    limpiarInput();
 }
 
 // función limpíar el input
 function limpiarInput(){
-    let inputVacio = document.getElementsById('amigo');
-    inputVacio.value = '';
+    document.querySelector('#amigo').value = '';
 }
 
 // hacer un sorteo con los avlores agregados al arreglo
