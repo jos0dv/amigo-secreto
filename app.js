@@ -6,13 +6,14 @@ let listaAmigos = [];
 // capturar la informacón en el input y agregar al arreglo
 function agregarAmigo(){
     let nuevoAmigo = document.getElementById('amigo').value;
-    console.log(nuevoAmigo);
+    // console.log(nuevoAmigo);
     if(nuevoAmigo != ''){
         listaAmigos.push(nuevoAmigo);
     } else {
         alert('No puede haber un valor vacío')
     }
-    console.log(listaAmigos);
+    // console.log(listaAmigos);
+    nuevoAmigo.innerText = '';
     let mostrarAmigo = document.getElementById('listaAmigos');
     mostrarAmigo.innerHTML += `<li>${nuevoAmigo}</li>`;
 }
