@@ -9,6 +9,7 @@ function agregarAmigo(){
     // console.log(nuevoAmigo);
     if(nuevoAmigo != ''){
         listaAmigos.push(nuevoAmigo);
+        limpiarInput();
     } else {
         alert('No puede haber un valor vacío')
     }
@@ -20,7 +21,8 @@ function agregarAmigo(){
 
 // función limpíar el input
 function limpiarInput(){
-    document.getElementsByClassName('input-name').innerText = '';
+    let inputVacio = document.getElementsByClassName('input-name');
+    inputVacio.value = '';
 }
 
 // hacer un sorteo con los avlores agregados al arreglo
