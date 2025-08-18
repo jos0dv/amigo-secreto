@@ -13,7 +13,7 @@ function agregarAmigo(){
         alert('No puede haber un valor vacío')
     }
     // console.log(listaAmigos);
-    nuevoAmigo.innerText = '';
+    document.getElementById('amigo').innerText = '';
     let mostrarAmigo = document.getElementById('listaAmigos');
     mostrarAmigo.innerHTML += `<li>${nuevoAmigo}</li>`;
 }
