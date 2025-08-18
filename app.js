@@ -23,11 +23,10 @@ function limpiarInput(){
     document.querySelector('#amigo').value = '';
 }
 
-// hacer un sorteo con los avlores agregados al arreglo
+// hacer un sorteo con los avlores agregados al arreglo y mostrar valor sorteado
 function sortearAmigo(){
     let numeroAmigo = Math.floor(Math.random() * listaAmigos.length);
     console.log(numeroAmigo)
     let resultado = document.getElementById('resultado');
     resultado.innerHTML = listaAmigos[numeroAmigo];
 }
-// mostrar el valor sorteado
